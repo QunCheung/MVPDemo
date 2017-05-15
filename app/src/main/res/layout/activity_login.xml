@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="cxzx.bdyx.com.mvpdemo.view.LoginActivity">
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="用户名"/>
+        <EditText
+            android:id="@+id/act_login_user_name_et"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_marginLeft="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="密    码"/>
+        <EditText
+            android:id="@+id/act_login_user_psd_et"
+            android:inputType="number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/act_login_sign_up_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录"/>
+</LinearLayout>
